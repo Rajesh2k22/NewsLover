@@ -12,7 +12,7 @@
 
    
 
-      var api= `https://newsapi.org/v2/everything?q=${search.value}&apiKey=b36f449f762a49498fd1940d3ec86847`;
+      var api= `https://newsapi.org/v2/top-headlines?country=${search.value}&apiKey=b36f449f762a49498fd1940d3ec86847`;
         
 
         try{
